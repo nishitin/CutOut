@@ -1,0 +1,24 @@
+# .gitignore (CutOutのルートディレクトリに配置)
+
+# Python関連ファイル (Djangoの仮想環境)
+server/venv/
+server/__pycache__/
+server/*.pyc
+server/*.log
+server/db.sqlite3          # SQLiteデータベースファイル (不要なら除外)
+
+# Djangoメディアファイル
+server/media/
+
+# Node.js関連ファイル (React)
+client/node_modules/
+client/build/
+client/dist/
+
+# 環境設定ファイル
+server/.env                # Djangoの環境変数ファイル
+client/.env                # Reactの環境変数ファイル
+
+# OS固有のファイル
+.DS_Store                  # macOSの不要ファイル
+Thumbs.db                  # Windowsの不要ファイル
