@@ -2,9 +2,9 @@
 
 # Python関連ファイル (Djangoの仮想環境)
 server/venv/
-server/__pycache__/
-server/*.pyc
-server/*.log
+server/api/__pycache__/
+server/api/*.pyc
+server/api/*.log
 server/db.sqlite3          # SQLiteデータベースファイル (不要なら除外)
 
 # Djangoメディアファイル
